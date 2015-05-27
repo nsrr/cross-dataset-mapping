@@ -1,0 +1,332 @@
+concept,database,domain,code,display_name,new_domain,new_code
+01-Demographics#ethnicity,SHHS,ethnicity12,1,Hispanic or Latino,ethnicity12_hmn,1
+01-Demographics#ethnicity,SHHS,ethnicity12,2,Not Hispanic or Latino,ethnicity12_hmn,2
+01-Demographics#ethnicity,CHAT,ethnicity,1,Hispanic or Latino,ethnicity12_hmn,1
+01-Demographics#ethnicity,CHAT,ethnicity,2,Not Hispanic or Latino,ethnicity12_hmn,2
+01-Demographics#ethnicity,CFS,ethnicity01,0,Not Hispanic or Latino,ethnicity12_hmn,2
+01-Demographics#ethnicity,CFS,ethnicity01,1,Hispanic or Latino,ethnicity12_hmn,1
+01-Demographics#gender,SHHS,gender12,1,Male,gender12_hmn,1
+01-Demographics#gender,SHHS,gender12,2,Female,gender12_hmn,2
+01-Demographics#gender,CHAT,sex,1,Male,gender12_hmn,1
+01-Demographics#gender,CHAT,sex,2,Female,gender12_hmn,2
+01-Demographics#gender,HEARTBEAT,sex,1,Male,gender12_hmn,1
+01-Demographics#gender,HEARTBEAT,sex,0,Female,gender12_hmn,2
+01-Demographics#gender,CFS,gender01,0,Female,gender12_hmn,2
+01-Demographics#gender,CFS,gender01,1,Male,gender12_hmn,1
+01-Demographics#race,SHHS,race123,1,White,race123_hmn,1
+01-Demographics#race,SHHS,race123,2,Black,race123_hmn,2
+01-Demographics#race,SHHS,race123,3,Other,race123_hmn,3
+01-Demographics#race,CHAT,race3,1,Black,race123_hmn,2
+01-Demographics#race,CHAT,race3,2,White,race123_hmn,1
+01-Demographics#race,CHAT,race3,7,Other,race123_hmn,3
+01-Demographics#race,HEARTBEAT,racehb,1,African American or Black,race123_hmn,2
+01-Demographics#race,HEARTBEAT,racehb,2,Caucasian,race123_hmn,1
+01-Demographics#race,HEARTBEAT,racehb,7,Other,race123_hmn,3
+01-Demographics#race,CFS,race123,1,White,race123_hmn,1
+01-Demographics#race,CFS,race123,2,Black,race123_hmn,2
+01-Demographics#race,CFS,race123,3,Other,race123_hmn,3
+02-Anthropometry#tonsilsize,CHAT,tonsilsize2,1,1+ 0 - 25%,tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CHAT,tonsilsize2,2,2+ 26 - 50%,tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CHAT,tonsilsize2,3,3+ 51 - 75%,tonsilarsize1299_hmn,2
+02-Anthropometry#tonsilsize,CHAT,tonsilsize2,4,4+ 76 - 100%,tonsilarsize1299_hmn,2
+02-Anthropometry#tonsilsize,CHAT,tonsilsize2,99,Not done,tonsilarsize1299_hmn,99
+02-Anthropometry#tonsilsize,CHAT,tonsilarsize,1,0-50%,tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CHAT,tonsilarsize,2,51-100%,tonsilarsize1299_hmn,2
+02-Anthropometry#tonsilsize,CFS,rosenscale,-2,Don't know,tonsilarsize1299_hmn,99
+02-Anthropometry#tonsilsize,CFS,rosenscale,0,"In fossa, no impingement",tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CFS,rosenscale,1,Less than 25% tonsils ariway obstruction,tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CFS,rosenscale,2,Less than 50% but greater than 25% airway obstruction,tonsilarsize1299_hmn,1
+02-Anthropometry#tonsilsize,CFS,rosenscale,3,Less than 75% but greater than 50% airway obstruction,tonsilarsize1299_hmn,2
+02-Anthropometry#tonsilsize,CFS,rosenscale,4,Greater than 75% airway obstruction,tonsilarsize1299_hmn,2
+04-MedicalHistory#anixietyhist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#anixietyhist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#anixietyhist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#anixietyhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#anixietyhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#asthmahist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#asthmahist,SHHS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,SHHS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#asthmahist,SHHS,noyes01,8,Don't know,noyes_hmn,8
+04-MedicalHistory#asthmahist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#asthmahist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#asthmahist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#asthmahist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,CFS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#asthmahist,CFS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#adhdhist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#adhdhist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#adhdhist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#adhdhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#adhdhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#cancerhist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#cancerhist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#cancerhist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#cancerhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#cancerhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#cvdishist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#cvdishist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#cvdishist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#cvdishist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#cvdishist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#cvdishist,CFS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#cvdishist,CFS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#copdhist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#copdhist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#copdhist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#copdhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#copdhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#cadhist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#cadhist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#cadhist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#cadhist,HEARTBEAT,check01,0,Not checked,noyes_hmn,0
+04-MedicalHistory#cadhist,HEARTBEAT,check01,1,Checked,noyes_hmn,1
+04-MedicalHistory#depresshist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#depresshist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#depresshist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#depresshist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#depresshist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#dmhist,SHHS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#dmhist,SHHS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#dmhist,SHHS,noyes01,8,Don't know,noyes_hmn,8
+04-MedicalHistory#dmhist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#dmhist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#dmhist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#dmhist,HEARTBEAT,check01,0,Not checked,noyes_hmn,0
+04-MedicalHistory#dmhist,HEARTBEAT,check01,1,Checked,noyes_hmn,1
+04-MedicalHistory#dmhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#dmhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#dmhist,CFS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#dmhist,CFS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#cholesthist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#cholesthist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#cholesthist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#cholesthist,HEARTBEAT,check01,0,Not checked,noyes_hmn,0
+04-MedicalHistory#cholesthist,HEARTBEAT,check01,1,Checked,noyes_hmn,1
+04-MedicalHistory#cholesthist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#cholesthist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#htnhist,SHHS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#htnhist,SHHS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#htnhist,SHHS,noyes01,8,Don't know,noyes_hmn,8
+04-MedicalHistory#htnhist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#htnhist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#htnhist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#htnhist,HEARTBEAT,check01,0,Not checked,noyes_hmn,0
+04-MedicalHistory#htnhist,HEARTBEAT,check01,1,Checked,noyes_hmn,1
+04-MedicalHistory#htnhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#htnhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#htnhist,CFS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#htnhist,CFS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#migrainehist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04-MedicalHistory#migrainehist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04-MedicalHistory#migrainehist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04-MedicalHistory#migrainehist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#migrainehist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#mihist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#mihist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#mihist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#mihist,SHHS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#mihist,SHHS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#mihist,SHHS,noyes01,8,Don't know,noyes_hmn,8
+04-MedicalHistory#mihist,HEARTBEAT,check01,0,Not checked,noyes_hmn,0
+04-MedicalHistory#mihist,HEARTBEAT,check01,1,Checked,noyes_hmn,1
+04-MedicalHistory#mihist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#mihist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#ppmhist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#ppmhist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#ppmhist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#ppmhist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#ppmhist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#strokehist,SHHS,yesnod,0,No,noyes_hmn,0
+04-MedicalHistory#strokehist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04-MedicalHistory#strokehist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04-MedicalHistory#strokehist,SHHS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#strokehist,SHHS,noyes01,1,Yes,noyes_hmn,1
+04-MedicalHistory#strokehist,SHHS,noyes01,8,Don't know,noyes_hmn,8
+04-MedicalHistory#strokehist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#strokehist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#tiahist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04-MedicalHistory#tiahist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04-MedicalHistory#tiahist,CFS,noyes01,0,No,noyes_hmn,0
+04-MedicalHistory#tiahist,CFS,noyes01,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#insomniahist,CHAT,noyesnotsure,0,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#insomniahist,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#insomniahist,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+04A-MedicalHistory-SleepDisorders#insomniahist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#insomniahist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#rlshist,SHHS,yesnod,0,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#rlshist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#rlshist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04A-MedicalHistory-SleepDisorders#rlshist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#rlshist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#apneahist,SHHS,yesnod,0,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#apneahist,SHHS,yesnod,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#apneahist,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+04A-MedicalHistory-SleepDisorders#apneahist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#apneahist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#cpaphist,CHAT,check,0,Not checked,noyes_hmn,0
+04A-MedicalHistory-SleepDisorders#cpaphist,CHAT,check,1,Checked,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#cpaphist,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+04A-MedicalHistory-SleepDisorders#cpaphist,HEARTBEAT,noyes,2,No,noyes_hmn,0
+06-HealthHabits#smoking,SHHS,smoker,0,Never,noyes_hmn,0
+06-HealthHabits#smoking,SHHS,smoker,1,Current,noyes_hmn,1
+06-HealthHabits#smoking,SHHS,smoker,2,Former,noyes_hmn,0
+06-HealthHabits#smoking,CFS,noyes01,0,No,noyes_hmn,0
+06-HealthHabits#smoking,CFS,noyes01,1,Yes,noyes_hmn,1
+06-HealthHabits#smoking,CFS,noyesdontknow,0,No,noyes_hmn,0
+06-HealthHabits#smoking,CFS,noyesdontknow,1,Yes,noyes_hmn,1
+06-HealthHabits#smoking,CFS,noyesdontknow,2,Don't know,noyes_hmn,8
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,noyes01,0,No,noyes_hmn,0
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,noyes01,1,Yes,noyes_hmn,1
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,noyes01,8,Don't know,noyes_hmn,8
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,yesnon,0,No,noyes_hmn,0
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,yesnon,1,Yes,noyes_hmn,1
+08C3-SleepStudyData-Respiratory-Breathing#periodicbreath,SHHS,yesnon,8,Not applicable,noyes_hmn,8
+10-SleepSymptoms#excessdaysleepiness,SHHS,nevralw5,1,Never (0),noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,SHHS,nevralw5,2,Rarely (1x/month or less),noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,SHHS,nevralw5,3,Sometimes (2-4x/month),noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,SHHS,nevralw5,4,Often (5-15x/month),noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,SHHS,nevralw5,5,Almost Always (16-30x/month),noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_main,0,I don't do this for other reasons,noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_main,1,"Yes, extreme difficulty",noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_main,2,"Yes, moderate difficulty",noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_main,3,"Yes, a little difficulty",noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_main,4,No difficulty,noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_relation,1,"Yes, extremely",noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_relation,2,"Yes, moderately",noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_relation,3,"Yes, a little",noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,fosq_relation,4,No,noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,ess,0,Would never doze,noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,ess,1,Slight chance of dozing,noyes_hmn,0
+10-SleepSymptoms#excessdaysleepiness,CFS,ess,2,Moderate chance of dozing,noyes_hmn,1
+10-SleepSymptoms#excessdaysleepiness,CFS,ess,3,High chance of dozing,noyes_hmn,1
+10-SleepSymptoms#probstayasleep,SHHS,nevralw5,1,Never (0),probfreq_hmn,0
+10-SleepSymptoms#probstayasleep,SHHS,nevralw5,2,Rarely (1x/month or less),probfreq_hmn,1
+10-SleepSymptoms#probstayasleep,SHHS,nevralw5,3,Sometimes (2-4x/month),probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,SHHS,nevralw5,4,Often (5-15x/month),probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,SHHS,nevralw5,5,Almost Always (16-30x/month),probfreq_hmn,4
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,0,Never,probfreq_hmn,0
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,1,Rarely (less than once a week),probfreq_hmn,1
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,2,Sometimes (1 to 2 times per week),probfreq_hmn,2
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,3,Frequently (3 to 4 times per week),probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,4,Always or almost always (5 to 7 times per week),probfreq_hmn,4
+10-SleepSymptoms#probstayasleep,CHAT,alwaysornever,88,Not sure,probfreq_hmn,88
+10-SleepSymptoms#probstayasleep,HEARTBEAT,phq9,0,Not at all,probfreq_hmn,0
+10-SleepSymptoms#probstayasleep,HEARTBEAT,phq9,1,Several days,probfreq_hmn,2
+10-SleepSymptoms#probstayasleep,HEARTBEAT,phq9,2,More than half the days,probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,HEARTBEAT,phq9,3,Nearly every day,probfreq_hmn,4
+10-SleepSymptoms#probstayasleep,CFS,freq,0,Never,probfreq_hmn,0
+10-SleepSymptoms#probstayasleep,CFS,freq,1,Rarely,probfreq_hmn,1
+10-SleepSymptoms#probstayasleep,CFS,freq,2,Sometimes,probfreq_hmn,2
+10-SleepSymptoms#probstayasleep,CFS,freq,3,Frequently,probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,CFS,freq,4,Always or almost always,probfreq_hmn,4
+10-SleepSymptoms#probstayasleep,CFS,freq,-2,Don't know,probfreq_hmn,88
+10-SleepSymptoms#probstayasleep,CFS,nightup,0,Never,probfreq_hmn,0
+10-SleepSymptoms#probstayasleep,CFS,nightup,1,1-2 times,probfreq_hmn,2
+10-SleepSymptoms#probstayasleep,CFS,nightup,2,3-5 times,probfreq_hmn,3
+10-SleepSymptoms#probstayasleep,CFS,nightup,3,More than 5 times,probfreq_hmn,4
+10-SleepSymptoms#unrefreshsleep,SHHS,nevralw5,1,Never (0),noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,SHHS,nevralw5,2,Rarely (1x/month or less),noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,SHHS,nevralw5,3,Sometimes (2-4x/month),noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,SHHS,nevralw5,4,Often (5-15x/month),noyes_hmn,1
+10-SleepSymptoms#unrefreshsleep,SHHS,nevralw5,5,Almost Always (16-30x/month),noyes_hmn,1
+10-SleepSymptoms#unrefreshsleep,CFS,freq,0,Never,noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,CFS,freq,1,Rarely,noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,CFS,freq,2,Sometimes,noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,CFS,freq,3,Frequently,noyes_hmn,1
+10-SleepSymptoms#unrefreshsleep,CFS,freq,4,Always or almost always,noyes_hmn1,
+10-SleepSymptoms#unrefreshsleep,CFS,freq,-2,Don't know,noyes_hmn,8
+10-SleepSymptoms#unrefreshsleep,CFS,functioning,1,Less than 5 minutes,noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,CFS,functioning,2,5-15 minutes,noyes_hmn,0
+10-SleepSymptoms#unrefreshsleep,CFS,functioning,3,15-30 minutes,noyes_hmn,1
+10-SleepSymptoms#unrefreshsleep,CFS,functioning,4,More than 30 minutes,noyes_hmn,1
+10-SleepSymptoms#unrefreshsleep,CFS,functioning,-2,Don't know,noyes_hmn,8
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,0,Never,probfreq_hmn,0
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,1,Rarely (less than once a week),probfreq_hmn,1
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,2,Sometimes (1 to 2 times per week),probfreq_hmn,2
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,3,Frequently (3 to 4 times per week),probfreq_hmn,3
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,4,Always or almost always (5 to 7 times per week),probfreq_hmn,4
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,88,Not sure,probfreq_hmn,88
+11-OtherSymptoms#persistwheez,CFS,freq,0,Never,probfreq_hmn,0
+11-OtherSymptoms#persistwheez,CFS,freq,1,Rarely,probfreq_hmn,1
+11-OtherSymptoms#persistwheez,CFS,freq,2,Sometimes,probfreq_hmn,2
+11-OtherSymptoms#persistwheez,CFS,freq,3,Frequently,probfreq_hmn,3
+11-OtherSymptoms#persistwheez,CFS,freq,4,Always or almost always,probfreq_hmn,4
+11-OtherSymptoms#persistwheez,CFS,freq,-2,Don't know,probfreq_hmn,88
+10A-SleepSymptoms-Snoring#habitsnoring,SHHS,yesnod,0,No,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoring,SHHS,yesnod,1,Yes,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,SHHS,yesnod,8,Don't Know,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoring,CHAT,noyesnotsure,0,No,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoring,CHAT,noyesnotsure,1,Yes,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,CHAT,noyesnotsure,88,Not sure,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoring,HEARTBEAT,noyes,1,Yes,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,HEARTBEAT,noyes,2,No,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,1,Only slightly louder than heaving breathing,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,2,About as loud as mumbling or talking,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,3,Louder than talking,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,4,Extremely loud - can be heard through a closed door,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,5,I haven't snored in the last month,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoring,CFS,snorvol,-2,Don't know,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,0,Do not snore any more,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,1,Rarely - (less than one night a week),noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,2,Sometimes - (1 or 2 nights a week),noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,3,Frequently - (3 to 5 nights a week),noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,4,Always or almost always - (6 or 7 nights a week),noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,SHHS,snore6,8,Don't know,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,0,Never,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,1,Rarely (less than once a week),noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,2,Sometimes (1 to 2 times per week),noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,3,Frequently (3 to 4 times per week),noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,4,Always or almost always (5 to 7 times per week),noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CHAT,alwaysornever,88,Not sure,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoringfreq,HEARTBEAT,hhqnightsperweeksnore,0,Do not snore anymore,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,HEARTBEAT,hhqnightsperweeksnore,1,Rarely - less than one night a week,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,HEARTBEAT,hhqnightsperweeksnore,2,Sometimes - 1 or 2 nights a week,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,HEARTBEAT,hhqnightsperweeksnore,3,Frequently - 3 to 5 nights a week,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,HEARTBEAT,hhqnightsperweeksnore,4,Always or almost always - 6 or 7 nights a week,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,0,Never,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,1,Rarely,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,2,Sometimes,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,3,Frequently,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,4,Always or almost always,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,freq,-2,Don't know,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,1,Only slightly louder than heaving breathing,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,2,About as loud as mumbling or talking,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,3,Louder than talking,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,4,Extremely loud - can be heard through a closed door,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,5,I haven't snored in the last month,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,snorvol,-2,Don't know,noyes_hmn,8
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,regsnor,1,The same with each breath,noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,regsnor,2,"Sometime loud, sometimes soft",noyes_hmn,1
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,regsnor,3,I haven't snored in the last month,noyes_hmn,0
+10A-SleepSymptoms-Snoring#habitsnoringfreq,CFS,regsnor,-2,Don't know,noyes_hmn,8
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,0,Never,probfreq_hmn,0
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,1,Rarely (less than once a week),probfreq_hmn,1
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,2,Sometimes (1 to 2 times per week),probfreq_hmn,2
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,3,Frequently (3 to 4 times per week),probfreq_hmn,3
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,4,Always or almost always (5 to 7 times per week),probfreq_hmn,4
+11-OtherSymptoms#persistwheez,CHAT,alwaysornever,88,Not sure,probfreq_hmn,88
+11-OtherSymptoms#persistwheez,CFS,freq,0,Never,probfreq_hmn,0
+11-OtherSymptoms#persistwheez,CFS,freq,1,Rarely,probfreq_hmn,1
+11-OtherSymptoms#persistwheez,CFS,freq,2,Sometimes,probfreq_hmn,2
+11-OtherSymptoms#persistwheez,CFS,freq,3,Frequently,probfreq_hmn,3
+11-OtherSymptoms#persistwheez,CFS,freq,4,Always or almost always,probfreq_hmn,4
+11-OtherSymptoms#persistwheez,CFS,freq,-2,Don't know,probfreq_hmn,88
+08J-SleepStudyData-Quality#signalqualitycode,CHAT,signalofsleeptime,1,Signal good for < 25% of sleep time,sigqual_hmn,2
+08J-SleepStudyData-Quality#signalqualitycode,CHAT,signalofsleeptime,2,Signal good for 25-49% of sleep time,sigqual_hmn,3
+08J-SleepStudyData-Quality#signalqualitycode,CHAT,signalofsleeptime,3,Signal good for 50-74% of sleep time,sigqual_hmn,4
+08J-SleepStudyData-Quality#signalqualitycode,CHAT,signalofsleeptime,4,Signal good for 75-94% of sleep time,sigqual_hmn,5
+08J-SleepStudyData-Quality#signalqualitycode,CHAT,signalofsleeptime,5,Signal good for >=95% of sleep time,sigqual_hmn,6
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,1,Fail,sigqual_hmn,1
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,2,Poor/Diagnostic,sigqual_hmn,2
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,3,Fair,sigqual_hmn,3
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,4,Good,sigqual_hmn,4
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,5,Excellent,sigqual_hmn,5
+08J-SleepStudyData-Quality#signalqualitycode,HEARTBEAT,studyqual,6,Outstanding,sigqual_hmn,6
+08J-SleepStudyData-Quality#signalqualitycode,CFS,sigqus2,1,Signal good for <25% of sleep time,sigqual_hmn,2
+08J-SleepStudyData-Quality#signalqualitycode,CFS,sigqus2,2,Signal good for 25-49% of sleep time,sigqual_hmn,3
+08J-SleepStudyData-Quality#signalqualitycode,CFS,sigqus2,3,Signal good for 50-74% of sleep time,sigqual_hmn,4
+08J-SleepStudyData-Quality#signalqualitycode,CFS,sigqus2,4,Signal good for 75-94% of sleep time,sigqual_hmn,5
+08J-SleepStudyData-Quality#signalqualitycode,CFS,sigqus2,5,Signal good for >95% of sleep time,sigqual_hmn,6
