@@ -1,0 +1,82 @@
+id,shhs,definition,positive_value
+icdadultosa_symptoms,ess_s1,Epworth Sleepiness Scale score (SHHS1),>10
+icdadultosa_symptoms,ess_s2,Epworth Sleepiness Scale score (SHHS2),>10
+icdadultosa_symptoms,attabl02,Sleep Habits (SHHS1): Fall asleep while at the dinner table,"3,4"
+icdadultosa_symptoms,drive02,Sleep Habits (SHHS1): Fall asleep while driving,"2,3,4"
+icdadultosa_symptoms,funres02,Sleep Habits (SHHS1): Frequency of feeling unrested,"4,5"
+icdadultosa_symptoms,nges02,Sleep Habits (SHHS1): Frequency of not getting enough sleep,"4,5"
+icdadultosa_symptoms,sleepy02,Sleep Habits (SHHS1): Frequency of excessive daytime sleepiness,"4,5"
+icdadultosa_symptoms,tfa02,Sleep Habits (SHHS1): Frequency of trouble falling asleep,"4,5"
+icdadultosa_symptoms,tkpill02,Sleep Habits (SHHS1): Frequency of taking sleeping pills,"4,5"
+icdadultosa_symptoms,wu2em02,Sleep Habits (SHHS1): Frequency of waking up too early and unable to resume sleep,"4,5"
+icdadultosa_symptoms,wudnrs02,Sleep Habits (SHHS1): Frequency of waking up and having difficulty resuming sleep,"4,5"
+icdadultosa_symptoms,sh308a,Sleep Habits (SHHS2): Frequency of trouble falling asleep,"4,5"
+icdadultosa_symptoms,sh308b,Sleep Habits (SHHS2): Frequency of waking up and having difficulty resuming sleep,"4,5"
+icdadultosa_symptoms,sh308c,Sleep Habits (SHHS2): Frequency of waking up too early and unable to resume sleep,"4,5"
+icdadultosa_symptoms,sh308d,Sleep Habits (SHHS2): Frequency of feeling unrested,"4,5"
+icdadultosa_symptoms,sh308e,Sleep Habits (SHHS2): Frequency of excessive daytime sleepiness,"4,5"
+icdadultosa_symptoms,sh308f,Sleep Habits (SHHS2): Frequency of not getting enough sleep,"4,5"
+icdadultosa_symptoms,sh308g,Sleep Habits (SHHS2): Frequency of taking sleeping pills,"4,5"
+icdadultosa_symptoms,,, 
+icdadultosa_symptoms,hosnr02,Sleep Habits (SHHS1): Frequency of snoring,"3,4"
+icdadultosa_symptoms,stpbrt02,Sleep Habits (SHHS1): Stop breathing during sleep,1
+icdadultosa_symptoms,sh310,Sleep Habits (SHHS2): Frequency of snoring,"3,4"
+icdadultosa_symptoms,sh314,Sleep Habits (SHHS2): Stop breathing during sleep,1
+icdadultosa_symptoms,sh315,Sleep Habits (SHHS2): Frequency of stopping breathing during sleep,"2,3,4"
+icdadultosa_history,htnderv_s1,Hypertension (SHHS1),yes
+icdadultosa_history,srhype,Self-reported Hypertension (SHHS1),yes
+icdadultosa_history,htnderv_s2,Hypertension (SHHS2),yes
+icdadultosa_history,angina15,MD Reported Angina (SHHS1),yes
+icdadultosa_history,ca15,MD Reported Coronary Angioplasty (SHHS1),yes
+icdadultosa_history,cabg15,MD Reported CABG (SHHS1),yes
+icdadultosa_history,mi15,MD Reported MI (SHHS1),yes
+icdadultosa_history,prev_hx_mi,Previous history of MI,yes
+icdadultosa_history,stroke15,MD Reported Stroke (SHHS1),yes
+icdadultosa_history,prev_hx_stroke,Previous history of stroke,yes
+icdadultosa_history,hf15,MD Reported Heart Failure (SHHS1),yes
+icdadultosa_history,afib_s2,Atrial fibrillation or flutter,yes
+icdadultosa_history,parrptdiab,History of Diabetes (SHHS1),yes
+icsdadultosa_psg5events,oardnbp3,"Obstructive Apnea per hour (NREM, Back, 3% oxygen desaturation)", 
+icsdadultosa_psg5events,oardnbp4,"Obstructive Apnea per hour (NREM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardnbp5,"Obstructive Apnea per hour (NREM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oardnoa3,"Obstructive Apnea per hour w/ arousals (NREM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardnoa4,"Obstructive Apnea per hour w/ arousals (NREM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardnoa5,"Obstructive Apnea per hour w/ arousals (NREM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oardnop3,"Obstructive Apnea per hour (NREM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardnop4,"Obstructive Apnea per hour (NREM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardrba3,"Obstructive Apnea per hour w/ arousals (REM, Back, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardrba4,"Obstructive Apnea per hour w/ arousals (REM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardrba5,"Obstructive Apnea per hour w/ arousals (REM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oardrbp3,"Obstructive Apnea per hour (REM, Back, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardrbp4,"Obstructive Apnea per hour (REM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardrbp5,"Obstructive Apnea per hour (REM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oardroa3,"Obstructive Apnea per hour w/ arousals (REM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardroa4,"Obstructive Apnea per hour w/ arousals (REM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardroa5,"Obstructive Apnea per hour w/ arousals (REM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oardrop3,"Obstructive Apnea per hour (REM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg5events,oardrop4,"Obstructive Apnea per hour (REM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg5events,oardrop5,"Obstructive Apnea per hour (REM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg5events,oai4p,Obstructive Apnea Index 4% oxygen desaturation,
+icsdadultosa_psg5events,oai4pa,Obstructive Apnea Index 4% oxygen desaturation or arousal,
+icsdadultosa_psg15events,oardnbp3,"Obstructive Apnea per hour (NREM, Back, 3% oxygen desaturation)", 
+icsdadultosa_psg15events,oardnbp4,"Obstructive Apnea per hour (NREM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardnbp5,"Obstructive Apnea per hour (NREM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oardnoa3,"Obstructive Apnea per hour w/ arousals (NREM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardnoa4,"Obstructive Apnea per hour w/ arousals (NREM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardnoa5,"Obstructive Apnea per hour w/ arousals (NREM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oardnop3,"Obstructive Apnea per hour (NREM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardnop4,"Obstructive Apnea per hour (NREM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardrba3,"Obstructive Apnea per hour w/ arousals (REM, Back, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardrba4,"Obstructive Apnea per hour w/ arousals (REM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardrba5,"Obstructive Apnea per hour w/ arousals (REM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oardrbp3,"Obstructive Apnea per hour (REM, Back, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardrbp4,"Obstructive Apnea per hour (REM, Back, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardrbp5,"Obstructive Apnea per hour (REM, Back, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oardroa3,"Obstructive Apnea per hour w/ arousals (REM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardroa4,"Obstructive Apnea per hour w/ arousals (REM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardroa5,"Obstructive Apnea per hour w/ arousals (REM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oardrop3,"Obstructive Apnea per hour (REM, Other, 3% oxygen desaturation)",
+icsdadultosa_psg15events,oardrop4,"Obstructive Apnea per hour (REM, Other, 4% oxygen desaturation)",
+icsdadultosa_psg15events,oardrop5,"Obstructive Apnea per hour (REM, Other, 5% oxygen desaturation)",
+icsdadultosa_psg15events,oai4p,Obstructive Apnea Index 4% oxygen desaturation,
+icsdadultosa_psg15events,oai4pa,Obstructive Apnea Index 4% oxygen desaturation or arousal,

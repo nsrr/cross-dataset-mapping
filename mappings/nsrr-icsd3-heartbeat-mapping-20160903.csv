@@ -1,0 +1,32 @@
+id,heartbeat,definition,positive_value
+icdadultosa_symptoms,escore,ESS Score,>10
+icdadultosa_symptoms,calc_ess,Calculated ESS Score,>10
+icdadultosa_symptoms,feeltired,Feel tired or fatigued after sleep,"1,2,3"
+icdadultosa_symptoms,wakingtime,Waking time feeling tired or fatigued,"1,2,3"
+icdadultosa_symptoms,phq03,"Trouble falling or staying asleep, or sleeping too much","1,2,3"
+icdadultosa_symptoms,phq04,Feeling tired or having little energy,"1,2,3"
+icdadultosa_symptoms,excsleepy,Excessively sleepy,"2,3,4"
+icdadultosa_symptoms,unrested,Felt unrested,"3,4"
+icdadultosa_symptoms,wakeearly,Woke up too early,"2,3,4"
+icdadultosa_symptoms,wokediff,Woke up during the night and had difficulty getting back to sleep,"2,3,4"
+icdadultosa_symptoms,snortedfq,Frequency of snorting or gasping in the last month,"2,3,4"
+icdadultosa_symptoms,stopbreathfq,Frequency of stopped breathing in the last month,"2,3,4"
+icdadultosa_symptoms,oftensnore,How often do you snore,"1,2"
+icdadultosa_symptoms,snoringis,Your snoring is,"3,4"
+icdadultosa_symptoms,bsnorefq,Frequency of snoring in the last month,"3,4"
+icdadultosa_symptoms,fsnorefq,Frequency of snoring in last month,"3,4"
+icdadultosa_history,dxhighbp,Diagnosed: High Blood Pressure or Hypertension,1
+icdadultosa_history,dxdepression,Diagnosed: Depression,1
+icdadultosa_history,dxdiab,Diagnosed: Diabetes,1
+icdadultosa_history,dxafib,Diagnosed: Atrial Fibrillation,1
+icdadultosa_history,dxanxiety,Diagnosed: Anxiety Disorder,1
+icdadultosa_history,dxheartattack,Diagnosed: Heart attack,1
+icdadultosa_history,dxcarotid,Diagnosed: Carotid Surgery (Endarterectomy),1
+icdadultosa_history,dxstroke,Diagnosed: Stroke (CVA),1
+icdadultosa_history,dxtia,Diagnosed: TIA (Transient Ischemic Attack),1
+icsdadultosa_psg5events,neventa,Apnea/Hypopnea: Total Apnea or Hypopnea per hour, 
+icsdadultosa_psg5events,aphyp,Apnea + Hypopnea,
+icsdadultosa_psg5events,aphypi,Apnea + Hypopnea,
+icsdadultosa_psg15events,neventa,Apnea/Hypopnea: Total Apnea or Hypopnea per hour, 
+icsdadultosa_psg15events,aphyp,Apnea + Hypopnea,
+icsdadultosa_psg15events,aphypi,Apnea + Hypopnea,
