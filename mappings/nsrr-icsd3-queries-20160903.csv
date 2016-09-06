@@ -1,0 +1,3 @@
+category,display_name,id,query,concepts,source,source_id
+,"Obstructive Sleep Apnea, Adult",icdadultosa,((icdadultosa_symptoms OR icdadultosa_history) AND (SUM(icsdadultosa_psg5events) >= 5)) OR (SUM(icsdadultosa_psg15events) >= 15),"icdadultosa_symptoms,icdadultosa_history,icsdadultosa_psg5events,icsdadultosa_psg15events",,
+,"Chronic Insomnia Disorder",icsdinsom,icsdinsom_history AND icsdinsom_symptoms,"icsdinsom_history,icsdinsom_symptoms,",,
